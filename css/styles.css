@@ -189,7 +189,7 @@ justify-content: center;
 background-repeat: no-repeat;
 background-position: center center;
 background-position: 50% 50%;
-background-size: cover;
+background-size: contain;
 
 }
 
@@ -232,6 +232,18 @@ background: #404bbf;
         color: #2e2f42;
 }
 
+.figure {
+background: #f4f4fd;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+margin-bottom: 8px;
+}
+
+.figure-icon {
+        fill: #2E2F42;
+}
 .advantages-list {
         display: flex;
         gap: 24px;
@@ -276,6 +288,11 @@ padding: 120px 0;
         margin: 0 auto;
         margin-bottom: 72px;
 }
+
+.team-contact-icon {
+        fill: #404bbf;
+}
+
 
 .team-list {
         display: flex;
