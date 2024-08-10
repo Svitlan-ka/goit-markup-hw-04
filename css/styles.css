@@ -367,17 +367,28 @@ rgba(46, 47, 66, 0.08);
 .team-list-item-icons {
         width: 40px;
         height: 40px;
+        margin-top: 8px;
+}
+
+.team-contact-icon {
+        fill: #f4f4fd;
+}
+
+.team-link-icons {
+        width: 100%;
+        height: 100%;
         background-color: #4d5ae5;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
-
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-contact-icon {
-        fill: #f4f4fd;
-
+.team-link-icons:hover,
+.team-link-icons:focus {
+        background-color: #404bbf;
+        background-color: #404bbf;
 }
 
 /**=============================================*/
@@ -408,10 +419,46 @@ padding-bottom: 120px;
 
 .portfolio-list-item {
 width: 360px;
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.portfolio-list-item:hover {
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
+                transform: translateY(0%);
+}
+
+.sellers-cover-wrap {
+        position: relative;
+        overflow: hidden;
 }
 
 .portfolio-img {
         padding-bottom: 32px;
+}
+
+.portfolio-list-item:hover .sellers-cover-text {
+        transform: translateY(0);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sellers-cover-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+        background: #4d5ae5;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 40px;
+        display: flex;
+        transform: translateY(100%);
 }
 
 .portfolio-subtitle {
