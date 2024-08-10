@@ -217,6 +217,7 @@ background-size: cover;
 }
 
 .container {
+        
 }
 
 .hero-btn {
@@ -317,18 +318,6 @@ padding: 120px 0;
         margin-bottom: 72px;
 }
 
-.team-contact-icon {
-        width: 40px;
-        height: 40px;
-        background-color: #4d5ae5;
-        fill: #f4f4fd;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-}
-
-
 .team-list {
         display: flex;
         gap: 24px;
@@ -337,7 +326,10 @@ padding: 120px 0;
 .team-list-item {
 background-color: #FFFFFF;
 border-radius: 0 0 4px 4px;
-box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+box-shadow: 0 2px 1px 0 
+rgba(46, 47, 66, 0.08), 0 1px 1px 0 
+rgba(46, 47, 66, 0.16), 0 1px 6px 0 
+rgba(46, 47, 66, 0.08);
 }
 
 .team-img {}
@@ -364,6 +356,28 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 
 .team-content {
         padding: 32px 0;
+}
+
+.team-list-icons {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+}
+
+.team-list-item-icons {
+        width: 40px;
+        height: 40px;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+
+.team-contact-icon {
+        fill: #f4f4fd;
+
 }
 
 /**=============================================*/
